@@ -40,17 +40,24 @@
         <a href="/" class="navbar-item">
           Home
         </a>
-        <a href="/synthetics.html" class="navbar-item">
-          Synthetic Tests
-        </a>
-        <a href="/ssl.html" class="navbar-item">
-          SSL Monitoring
-        </a>
-        <a href="/webpage.html" class="navbar-item">
-          Web Page Monitoring
-        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="/synthetics.html">
+            Monitoring
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="/synthetics.html">
+              Synthetic Monitoring
+            </a>
+            <a class="navbar-item" href="/ssl.html">
+              SSL Monitoring
+            </a>
+            <a class="navbar-item" href="/webpage.html">
+              Web Page Monitoring
+            </a>            
+          </div>
+        </div>        
         <a href="https://docs.devraven.io" class="navbar-item">
-          Documentation
+          Docs
         </a>
         <div class="navbar-item">
           <div class="buttons">
