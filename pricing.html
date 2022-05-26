@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="/images/logo1500.jpg">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monitoring for Developers | DevRaven</title>
+  <meta name="description"
+    content="Monitoring for Developers - Synthetic monitoring, SSL Monitoring and Web Page Monitoring for Teams">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/bundle.js"></script>
+</head>
+<body>
+  <div id="cookies-eu-banner" class="with-shadow has-background-primary-light has-text-grey-dark"
+    style="width:100%;display: none;position:fixed;bottom:0;z-index:999;">    
+    <div class="is-flex is-align-items-center is-justify-content-center m-6">
+      <span>This website uses cookies to improve your browsing experience, analyze traffic trends and to customize the
+      experience specific to you. By clicking 'Accept' or continuing to browse the site, you agree to the use of cookies.</span>
+      <button class="button is-primary ml-4" id="cookies-eu-accept">Accept</button>
+    </div>    
+  </div>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item py-0" href="/">
+          <img alt="DevRaven logo" src="images/logo.png" height="50" class="box-logo">
+        </a>
+
+        <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar-end" class="navbar-end is-hidden-touch">
+        <a href="/" class="navbar-item">
+          Home
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="/synthetics.html">
+            Monitoring
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="/synthetics.html">
+              Synthetic Monitoring
+            </a>
+            <a class="navbar-item" href="/ssl.html">
+              SSL Monitoring
+            </a>
+            <a class="navbar-item" href="/webpage.html">
+              Web Page Monitoring
+            </a>            
+          </div>
+        </div>  
+        <a href="/pricing.html" class="navbar-item">
+          Pricing
+        </a>      
+        <a href="https://docs.devraven.io" class="navbar-item">
+          Docs
+        </a>
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="https://app.devraven.io/register" class="button is-primary">
+              <strong>Sign up</strong>
+            </a>
+            <a href="https://app.devraven.io/login" class="button is-light">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="has-text-centered">
+          <h1 class="has-text-primary">Pricing</h1>
+          <div class="is-size-3 has-text-grey-dark my-6">
+            DevRaven is currently offered as limited preview. Users who sign up now will not incur any charges until July 31st, 2022. After July 31st, Workspaces can switch to a free or paid plan.
+          </div>
+          <div class="columns is-half is-centered">
+            <div class="column is-6">
+              <a href="https://app.devraven.io/register" class="button is-primary is-large is-fullwidth">Sign up for
+                free</a>
+            </div>
+          </div>                        
+        </div>
+        <div class="pricing-table my-6 is-comparative">
+          <div class="pricing-plan is-features">
+            <div class="plan-header">Features</div>
+            <div class="has-text-centered">&nbsp;</div> 
+            <div class="plan-price"><span class="plan-price-amount">&nbsp;</span></div>
+            <div class="plan-items">
+              <div class="plan-item">Users</div>
+              <div class="plan-item">Monitors</div>
+              <div class="plan-item">Synthetic Test Checks</div>
+              <div class="plan-item">API Monitor Checks</div>
+              <div class="plan-item">SSL Monitor Checks</div>
+              <div class="plan-item">Web Page Monitor Checks</div>
+              <div class="plan-item">Slack & MS Teams integrations</div>
+            </div>
+            <div class="plan-footer">
+        
+            </div>
+          </div>
+          <div class="pricing-plan is-active">
+            <div class="plan-header">Limited Preview</div>
+            <div class="has-text-centered">Ends July 31st, 2022</div>         
+            <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>0</span>/month</div>
+            <div class="plan-items">
+              <div class="plan-item" data-feature="Users">Unlimited</div>
+              <div class="plan-item" data-feature="Monitors">Unlimited</div>
+              <div class="plan-item" data-feature="Synthetic Test Checks">10000/month</div>
+              <div class="plan-item" data-feature="API Monitor Checks">Coming Soon</div>
+              <div class="plan-item" data-feature="SSL Monitor Checks">500/month</div>
+              <div class="plan-item" data-feature="Web Page Monitor Checks">500/month</div>
+              <div class="plan-item" data-feature="Slack & MS Teams integrations">Yes</div>
+            </div>
+            <div class="plan-footer">
+              <button class="button is-fullwidth" disabled="disabled">Current plan</button>
+            </div>
+          </div>
+        
+          <div class="pricing-plan is-warning">
+            <div class="plan-header">Free</div>
+            <div class="has-text-centered">Coming Soon</div> 
+            <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>0</span>/month</div>
+            <div class="plan-items">
+              <div class="plan-item" data-feature="Users">Unlimited</div>
+              <div class="plan-item" data-feature="Monitors">NA</div>
+              <div class="plan-item" data-feature="Synthetic Test Checks">NA</div>
+              <div class="plan-item" data-feature="API Monitor Checks">NA</div>
+              <div class="plan-item" data-feature="SSL Monitor Checks">NA</div>
+              <div class="plan-item" data-feature="Web Page Monitor Checks">NA</div>
+              <div class="plan-item" data-feature="Slack & MS Teams integrations">Yes</div>
+            </div>
+            <div class="plan-footer">
+              <button disabled={true} class="button is-fullwidth">Coming Soon</button>
+            </div>
+          </div>
+
+          <div class="pricing-plan is-danger">
+            <div class="plan-header">Paid</div>
+            <div class="has-text-centered">Coming Soon</div> 
+            <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>TBD</span>/month</div>
+            <div class="plan-items">
+              <div class="plan-item" data-feature="Users">Unlimited</div>
+              <div class="plan-item" data-feature="Monitors">NA</div>
+              <div class="plan-item" data-feature="Synthetic Test Checks">NA</div>
+              <div class="plan-item" data-feature="API Monitor Checks">NA</div>
+              <div class="plan-item" data-feature="SSL Monitor Checks">NA</div>
+              <div class="plan-item" data-feature="Web Page Monitor Checks">NA</div>
+              <div class="plan-item" data-feature="Slack & MS Teams integrations">Yes</div>
+            </div>
+            <div class="plan-footer">
+              <button disabled={true} class="button is-fullwidth">Coming Soon</button>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="curve1">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150">
+      <path fill="#f5f5f5" fill-opacity="1" d="M0,150L1440,0L0,0Z"></path>
+    </svg>
+  </div>
+  <section class="section has-background-white pb-1">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="mb-3">
+            <a href="/synthetics.html">Synthetic Monitoring</a>
+          </div>
+          <div class="mb-3">
+            <a href="/ssl.html">SSL Monitoring</a>
+          </div>
+          <div class="mb-3">
+            <a href="/webpage.html">Web Page Monitoring</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="mb-3">
+            <a href="https://docs.devraven.io" target="_blank">Documentation</a>
+          </div>
+          <div class="mb-3">
+            <a href="https://docs.devraven.io/blog" target="_blank">Blog</a>
+          </div>
+        </div>        
+        <div class="column">
+          <div class="mb-3">
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="mb-3">
+            <a href="/">Privacy policy</a>
+          </div>
+          <div class="mb-3">
+            <a href="/">Cookie policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-6 has-text-centered">
+      Copyright &copy; 2022 DevRaven Inc. All rights reserved.
+    </div>
+  </section>
+</body>
+
+</html>
