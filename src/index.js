@@ -18,7 +18,9 @@ window.onload = function() {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-CLPNFR3HQF');
+        gtag('config', 'G-CLPNFR3HQF', {
+            'cookie_domain': 'www.devraven.io'
+        });        
     }, true);
 };
 
