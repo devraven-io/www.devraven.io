@@ -5,8 +5,6 @@ window.onload = function() {
     document.getElementById('navbar-burger').onclick = function() {
         document.getElementById('navbar-end').classList.toggle('is-hidden-touch');
     }
-
-    console.log(CookiesEuBanner);
     
     new CookiesEuBanner(function () {
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
