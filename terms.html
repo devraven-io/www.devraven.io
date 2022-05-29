@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monitoring for Developers | DevRaven</title>
+  <meta name="description"
+    content="Monitoring for Developers - Synthetic monitoring, SSL Monitoring and Web Page Monitoring for Teams">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/bundle.js"></script>
+</head>
+<body>
+  <div id="cookies-eu-banner" class="with-shadow has-background-primary-light has-text-grey-dark"
+    style="width:100%;display: none;position:fixed;bottom:0;z-index:999;">    
+    <div class="is-flex is-align-items-center is-justify-content-center m-6">
+      <span>This website uses cookies to improve your browsing experience, analyze traffic trends and to customize the
+      experience specific to you. By clicking 'Accept' or continuing to browse the site, you agree to the use of cookies.</span>
+      <button class="button is-primary ml-4" id="cookies-eu-accept">Accept</button>
+    </div>    
+  </div>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item py-0" href="/">
+          <img alt="DevRaven logo" src="images/logo.png" height="50" class="box-logo">
+        </a>
+
+        <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar-end" class="navbar-end is-hidden-touch">
+        <a href="/" class="navbar-item">
+          Home
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="/synthetics.html">
+            Monitoring
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="/synthetics.html">
+              Synthetic Monitoring
+            </a>
+            <a class="navbar-item" href="/ssl.html">
+              SSL Monitoring
+            </a>
+            <a class="navbar-item" href="/webpage.html">
+              Web Page Monitoring
+            </a>            
+          </div>
+        </div>  
+        <a href="/pricing.html" class="navbar-item">
+          Pricing
+        </a>      
+        <a href="https://docs.devraven.io" class="navbar-item">
+          Docs
+        </a>
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="https://app.devraven.io/register" class="button is-primary">
+              <strong>Sign up</strong>
+            </a>
+            <a href="https://app.devraven.io/login" class="button is-light">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section>    
+      <div class="container">
+        <div class="legal">
+          <h1 class="has-text-primary">Terms of Service</h1>          
+          <p>These Terms of Service govern your use of the website located at <a href="https://www.devraven.io">https://www.devraven.io</a> and any related services provided by DevRaven, Inc.. </p>
+          <p>By accessing <a href="https://www.devraven.io">https://www.devraven.io</a> or any related services provided by DevRaven, Inc., you agree to abide by these Terms of Service and to comply with all applicable laws and regulations. If you do not agree with these Terms of Service, you are prohibited from using or accessing this website or using any other services provided by DevRaven, Inc.. </p>
+          <p>We, DevRaven, Inc., reserve the right to review and amend any of these Terms of Service at our sole discretion. Upon doing so, we will update this page. Any changes to these Terms of Service will take effect immediately from the date of publication. </p>
+          <p>These Terms of Service were last updated on 27 May 2022. </p>
+          <div class="is-size-3 mt-3">Limitations of Use</div>
+          <p>By using this website, you warrant on behalf of yourself, your users, and other parties you represent that you will not: </p>
+          <ol>
+            <li>modify, copy, prepare derivative works of, decompile, or reverse engineer any materials and software contained on this website;</li>
+            <li>remove any copyright or other proprietary notations from any materials and software on this website;</li>
+            <li>transfer the materials to another person or “mirror” the materials on any other server;</li>
+            <li>knowingly or negligently use this website or any of its associated services in a way that abuses or disrupts our networks or any other service DevRaven, Inc. provides;</li>
+            <li>use this website or its associated services to transmit or publish any harassing, indecent, obscene, fraudulent, or unlawful material;</li>
+            <li>use this website or its associated services in violation of any applicable laws or regulations;</li>
+            <li>use this website in conjunction with sending unauthorized advertising or spam;</li>
+            <li>harvest, collect, or gather user data without the user’s consent; or</li>
+            <li>use this website or its associated services in such a way that may infringe the privacy, intellectual property rights, or other rights of third parties.</li>
+          </ol>
+          <div class="is-size-3 mt-3">Intellectual Property</div>
+          <p>The intellectual property in the materials contained in this website are owned by or licensed to DevRaven, Inc. and are protected by applicable copyright and trademark law. We grant our users permission to use the services offered by DevRaven, Inc. for legitimate purposes. </p>
+          <p>This constitutes the grant of a license, not a transfer of title. This license shall automatically terminate if you violate any of these restrictions or the Terms of Service, and may be terminated by DevRaven, Inc. at any time. </p>
+          <div class="is-size-3 mt-3">User-Generated Content</div>
+          <p>You retain your intellectual property ownership rights over content you submit to us for publication on our website. We will never claim ownership of your content, but we do require a license from you in order to use it. We reserve the right to examine, inspect, verify, modify or delete any content published on our website or services to prevent abuse of services offered by us or for any reasons we determine reasonable.</p>
+          <p>When you use our website or its associated services to post, upload, share, or otherwise transmit content covered by intellectual property rights, you grant to us a non-exclusive, royalty-free, transferable, sub-licensable, worldwide license to use, distribute, modify, run, copy, publicly display, translate, or otherwise create derivative works of your content in a manner that is consistent with your privacy preferences and our Privacy Policy. </p>
+          <p>The license you grant us can be terminated at any time by deleting your content or account. However, to the extent that we (or our partners) have used your content in connection with commercial or sponsored content, the license will continue until the relevant commercial or post has been discontinued by us. </p>
+          <p>You give us permission to use your username and other identifying information associated with your account in a manner that is consistent with your privacy preferences, and our Privacy Policy. </p>          
+          <div class="is-size-3 mt-3">Liability</div>
+          <p>Our website and the materials on our website are provided on an 'as is' basis. To the extent permitted by law, DevRaven, Inc. makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property, or other violation of rights. </p>
+          <p>In no event shall DevRaven, Inc. or its suppliers be liable for any consequential loss suffered or incurred by you or any third party arising from the use or inability to use this website or the materials on this website, even if DevRaven, Inc. or an authorized representative has been notified, orally or in writing, of the possibility of such damage. </p>
+          <p>In the context of this agreement, &ldquo;consequential loss&rdquo; includes any consequential loss, indirect loss, real or anticipated loss of profit, loss of benefit, loss of revenue, loss of business, loss of goodwill, loss of opportunity, loss of savings, loss of reputation, loss of use and/or loss or corruption of data, whether under statute, contract, equity, tort (including negligence), indemnity, or otherwise. </p>
+          <p>Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you. </p>
+          <div class="is-size-3 mt-3">Accuracy of Materials</div>
+          <p>The materials appearing on our website are not comprehensive and are for general information purposes only. DevRaven, Inc. does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on this website, or otherwise relating to such materials or on any resources linked to this website. </p>
+          <div class="is-size-3 mt-3">Links</div>
+          <p>DevRaven, Inc. has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement, approval, or control by DevRaven, Inc. of the site. Use of any such linked site is at your own risk and we strongly advise you make your own investigations with respect to the suitability of those sites. </p>
+          <div class="is-size-3 mt-3">Right to Terminate</div>
+          <p>We may suspend or terminate your right to use our website and terminate these Terms of Service immediately upon written notice to you for any breach of these Terms of Service. </p>
+          <div class="is-size-3 mt-3">Cancellation of Services</div>
+          <p>You may request cancellation of our services by contacting DevRaven Support. Any payment already made towards future term will not be refunded and your cancellation will be effective at end of such term already paid through or until the credit is exhausted.</p>
+          <div class="is-size-3 mt-3">Severance</div>
+          <p>Any term of these Terms of Service which is wholly or partially void or unenforceable is severed to the extent that it is void or unenforceable. The validity of the remainder of these Terms of Service is not affected. </p>
+          <div class="is-size-3 mt-3">Governing Law</div>
+          <p>These Terms of Service are governed by and construed in accordance with the laws of Delaware. You irrevocably submit to the exclusive jurisdiction of the courts in that State or location. </p>
+                      
+        </div>        
+      </div>
+  </section>
+  <div class="curve1">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150">
+      <path fill="#f5f5f5" fill-opacity="1" d="M0,0L1440,150L0,150Z"></path>
+    </svg>
+  </div>
+  <section class="section has-background-light pb-1">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="mb-3 has-text-weight-bold">
+            Products
+          </div>
+          <div class="mb-3">
+            <a href="/synthetics.html" >Synthetic Monitoring</a>
+          </div>
+          <div class="mb-3">
+            <a href="/ssl.html">SSL Monitoring</a>
+          </div>
+          <div class="mb-3">
+            <a href="/webpage.html">Web Page Monitoring</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="mb-3 has-text-weight-bold">
+            Support
+          </div>
+          <div class="mb-3">
+            <a href="https://docs.devraven.io" target="_blank">Documentation</a>
+          </div>
+          <div class="mb-3">
+            <a href="https://docs.devraven.io/blog" target="_blank">Blog</a>
+          </div>
+        </div>        
+        <div class="column">
+          <div class="mb-3 has-text-weight-bold">
+            Legal
+          </div>
+          <div class="mb-3">
+            <a href="/terms.html">Terms of Service</a>
+          </div>
+          <div class="mb-3">
+            <a href="/privacy.html">Privacy Policy</a>
+          </div>
+          <div class="mb-3">
+            <a href="/cookie_policy.html">Cookie Policy</a>
+          </div>
+          <div class="mb-3">
+            <a href="/acceptable_use.html">Acceptable Use Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-6 has-text-centered">
+      Copyright &copy; 2022 DevRaven Inc. All rights reserved.
+    </div>
+  </section>
+</body>
+
+</html>
