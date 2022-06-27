@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Monitoring for Developers | DevRaven</title>
   <meta name="description"
-    content="Monitoring for Developers - Synthetic monitoring, SSL Monitoring and Web Page Monitoring for Teams">
+    content="Monitoring for Developers - Synthetic monitoring, API Monitoring, SSL Monitoring and Web Page Monitoring for Teams">
   <link rel="stylesheet" href="css/styles.css" />
 
 </head>
@@ -49,6 +49,9 @@
             <a class="navbar-item" href="/synthetics.html">
               Synthetic Monitoring
             </a>
+            <a class="navbar-item" href="/api.html">
+              API Monitoring
+            </a>
             <a class="navbar-item" href="/ssl.html">
               SSL Monitoring
             </a>
@@ -69,7 +72,7 @@
               <strong>Sign up</strong>
             </a>
             <a href="https://app.devraven.io/login" class="button is-light">
-              Log in
+              Sign In
             </a>
           </div>
         </div>
@@ -111,19 +114,15 @@
   <section class="section">
     <div class="container">
       <h2 class="has-text-primary">Get started in less than a minute</h2>
-      <div class="is-size-4 has-text-centered">Run end-to-end test scenarios, powered by Playwright, using real browsers
-        in our cloud.<br />No setup required.</div>
+      <div class="is-size-4 has-text-centered">Monitor your APIs or run end-to-end synthetic tests using real browsers in our cloud.<br />No setup required.</div>
       <div class="is-flex is-justify-content-center">
-        <figure class="image mt-3">
+        <figure class="image mt-3 mb-6">
           <img class="browsers" alt="Supports Chrome, Firefox, Edge, Safari" src="/images/browsers.png">
         </figure>
       </div>
-      <figure class="image m-6">
+      <figure class="image m-6 is-hidden-mobile">
         <img class="with-shadow dark with-radius" alt="Example Playwright code" src="/images/code.webp">
-      </figure>
-      <div class="has-text-centered">
-        <a href="/synthetics.html" class="button is-primary is-medium">Learn more about Synthetic Tests</a>
-      </div>
+      </figure>                
     </div>
   </section>
   <div class="curve1">
@@ -133,6 +132,38 @@
   </div>
   <section class="section has-background-light">
     <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <div class="content has-text-centered">
+                <div class="is-size-3 has-text-weight-bold">Synthetic Monitoring</div>
+                <div class="m-4">
+                  <img style="height:170px;" alt="SSL" src="/images/browser.jpg">
+                </div>
+                <div class="is-size-5">Continuously run your browser based end-to-end functionality, powered by popular Playwright framework, and get alerted before your real customers get impacted.</div>
+                <div class="mt-4"><a href="/synthetics.html" class="button is-primary"
+                    alt="Learn more about Synthetic Monitoring">More about Synthetic Monitoring</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <div class="content has-text-centered">
+                <div class="is-size-3 has-text-weight-bold">API Monitoring</div>
+                <div class="m-4">
+                  <img style="height:170px;" alt="API monitoring" src="/images/api.webp">
+                </div>
+                <div class="is-size-5">Monitor your REST APIs quickly and easily to ensure they are functional and accessible. Assert your API responses and performance timings with zero coding required.</div>
+                <div class="mt-4"><a href="/webpage.html" class="button is-primary"
+                    alt="Learn more about API Monitoring">More about API Monitoring</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="columns">
         <div class="column">
           <div class="card">
@@ -217,7 +248,25 @@
   </section>
 
   <section class="section has-background-white team">
-    <div class="container py-6">
+    <div class="container py-1">
+      <div class="columns">
+        <div class="column is-flex">
+          <figure class="image">
+            <img class="team" alt="Built for teams" src="/images/integrations.png">
+          </figure>
+        </div>
+        <div class="column is-5 blob2 is-flex is-align-items-center">
+          <div class="content">
+            <h2 class="mt-6 has-text-left">Integrations</h2>
+            <div class="is-size-5 has-text-left">Get alerted on your favorite tools like Slack, Microsoft Teams, Pagerduty or just receive email notifications.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section has-background-white team">
+    <div class="container py-1">
       <div class="columns">
         <div class="column is-5 blob1 is-flex is-align-items-center">
           <div class="content">
@@ -235,7 +284,7 @@
     </div>
   </section>
   <section class="section has-background-white team">
-    <div class="container py-6">
+    <div class="container py-1">
       <div class="columns">
         <div class="column is-flex">
           <figure class="image">
@@ -244,8 +293,8 @@
         </div>
         <div class="column is-5 blob2 is-flex is-align-items-center">
           <div class="content">
-            <h2 class="mt-6">Global locations</h2>
-            <div class="is-size-5 has-text-center">Monitor your services from multiple geolocations.</div>
+            <h2 class="mt-6 has-text-left">Global locations</h2>
+            <div class="is-size-5 has-text-left">Monitor your services from multiple geolocations.</div>
           </div>
         </div>
       </div>
@@ -265,6 +314,9 @@
           </div>
           <div class="mb-3">
             <a href="/synthetics.html" class="has-text-white">Synthetic Monitoring</a>
+          </div>
+          <div class="mb-3">
+            <a href="/api.html" class="has-text-white">API Monitoring</a>
           </div>
           <div class="mb-3">
             <a href="/ssl.html" class="has-text-white">SSL Monitoring</a>
