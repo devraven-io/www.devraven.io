@@ -12,14 +12,16 @@
   <link rel="stylesheet" href="css/styles.css" />
   <script defer src="js/bundle.js"></script>
 </head>
+
 <body>
   <div id="cookies-eu-banner" class="with-shadow has-background-primary-light has-text-grey-dark"
-    style="width:100%;display: none;position:fixed;bottom:0;z-index:999;">    
+    style="width:100%;display: none;position:fixed;bottom:0;z-index:999;">
     <div class="is-flex is-align-items-center is-justify-content-center m-6">
       <span>This website uses cookies to improve your browsing experience, analyze traffic trends and to customize the
-      experience specific to you. By clicking 'Accept' or continuing to browse the site, you agree to the use of cookies.</span>
+        experience specific to you. By clicking 'Accept' or continuing to browse the site, you agree to the use of
+        cookies.</span>
       <button class="button is-primary ml-4" id="cookies-eu-accept">Accept</button>
-    </div>    
+    </div>
   </div>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="container">
@@ -56,12 +58,12 @@
             </a>
             <a class="navbar-item" href="/webpage.html">
               Web Page Monitoring
-            </a>            
+            </a>
           </div>
-        </div>  
+        </div>
         <a href="/pricing.html" class="navbar-item">
           Pricing
-        </a>      
+        </a>
         <a href="https://docs.devraven.io" class="navbar-item">
           Docs
         </a>
@@ -84,19 +86,20 @@
         <div class="has-text-centered">
           <h1 class="has-text-primary">Pricing</h1>
           <div class="is-size-3 has-text-grey-dark my-6">
-            DevRaven is currently offered as limited preview. Users who sign up now will not incur any charges until July 31st, 2022. After July 31st, Workspaces can switch to a free or paid plan.
+            A solution for all in your team. Simple, no per seat pricing.
           </div>
           <div class="columns is-half is-centered">
             <div class="column is-6">
-              <a href="https://app.devraven.io/register" class="button is-primary is-large is-fullwidth">Sign up for free</a>
+              <a href="https://app.devraven.io/register" class="button is-primary is-large is-fullwidth">Sign up for
+                free</a>
               <div class="mt-2 has-text-centered is-italic">No credit card needed</div>
             </div>
-          </div>                        
+          </div>
         </div>
-        <div class="pricing-table my-6 is-comparative">
+        <div class="subtitle has-text-weight-semibold">Core Plans</div>
+        <div class="pricing-table mx-0 mt-3 mb-6 is-comparative">
           <div class="pricing-plan is-features">
             <div class="plan-header">Features</div>
-            <div class="has-text-centered">&nbsp;</div> 
             <div class="plan-price"><span class="plan-price-amount">&nbsp;</span></div>
             <div class="plan-items">
               <div class="plan-item">Users</div>
@@ -105,65 +108,61 @@
               <div class="plan-item">API Monitor Checks</div>
               <div class="plan-item">SSL Monitor Checks</div>
               <div class="plan-item">Web Page Monitor Checks</div>
-              <div class="plan-item">Slack & MS Teams integrations</div>
+              <div class="plan-item">Environments</div>
+              <div class="plan-item">Slack &amp; MS Teams integrations</div>
+              <div class="plan-item">Result Data Retention</div>
             </div>
-            <div class="plan-footer">
-        
-            </div>
+            <div class="plan-footer"></div>
           </div>
-          <div class="pricing-plan is-active">
-            <div class="plan-header">Limited Preview</div>
-            <div class="has-text-centered">Ends July 31st, 2022</div>         
-            <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>0</span>/month</div>
+          <div class="pricing-plan is-danger">
+            <div class="plan-header">Free plan</div>
+            <div class="plan-price"><span class="plan-price-amount"><span
+                  class="plan-price-currency">$</span>0</span>/month</div>
             <div class="plan-items">
               <div class="plan-item" data-feature="Users">Unlimited</div>
               <div class="plan-item" data-feature="Monitors">Unlimited</div>
-              <div class="plan-item" data-feature="Synthetic Test Checks">10000/month</div>
-              <div class="plan-item" data-feature="API Monitor Checks">Coming Soon</div>
+              <div class="plan-item" data-feature="Synthetic Test Checks">2500/month</div>
+              <div class="plan-item" data-feature="API Monitor Checks">10000/month</div>
+              <div class="plan-item" data-feature="SSL Monitor Checks">100/month</div>
+              <div class="plan-item" data-feature="Web Page Monitor Checks">100/month</div>
+              <div class="plan-item" data-feature="Environments">Unlimited</div>
+              <div class="plan-item" data-feature="Slack &amp; MS Teams integrations">Included</div>
+              <div class="plan-item" data-feature="Run Data Retention">10 days</div>
+            </div>
+            <div class="plan-footer"><a href="https://app.devraven.io/register" class="button is-fullwidth">Get Started for free</a></div>
+          </div>
+          <div class="pricing-plan is-danger">
+            <div class="plan-header">Starter plan</div>
+            <div class="plan-price"><span class="plan-price-amount"><span
+                  class="plan-price-currency">$</span>29.99</span>/month</div>
+            <div class="plan-items">
+              <div class="plan-item" data-feature="Users">Unlimited</div>
+              <div class="plan-item" data-feature="Monitors">Unlimited</div>
+              <div class="plan-item" data-feature="Synthetic Test Checks">5000/month</div>
+              <div class="plan-item" data-feature="API Monitor Checks">50000/month</div>
               <div class="plan-item" data-feature="SSL Monitor Checks">500/month</div>
               <div class="plan-item" data-feature="Web Page Monitor Checks">500/month</div>
-              <div class="plan-item" data-feature="Slack & MS Teams integrations">Yes</div>
+              <div class="plan-item" data-feature="Environments">Unlimited</div>
+              <div class="plan-item" data-feature="Slack &amp; MS Teams integrations">Included</div>
+              <div class="plan-item" data-feature="Run Data Retention">10 days</div>
             </div>
-            <div class="plan-footer">
-              <button class="button is-fullwidth" disabled="disabled">Current plan</button>
-            </div>
+            <div class="plan-footer"><a href="https://app.devraven.io/register" class="button is-fullwidth">Get Started for free</a></div>
           </div>
-        
-          <div class="pricing-plan is-warning">
-            <div class="plan-header">Free</div>
-            <div class="has-text-centered">Coming Soon</div> 
-            <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>0</span>/month</div>
-            <div class="plan-items">
-              <div class="plan-item" data-feature="Users">Unlimited</div>
-              <div class="plan-item" data-feature="Monitors">NA</div>
-              <div class="plan-item" data-feature="Synthetic Test Checks">NA</div>
-              <div class="plan-item" data-feature="API Monitor Checks">NA</div>
-              <div class="plan-item" data-feature="SSL Monitor Checks">NA</div>
-              <div class="plan-item" data-feature="Web Page Monitor Checks">NA</div>
-              <div class="plan-item" data-feature="Slack & MS Teams integrations">Yes</div>
-            </div>
-            <div class="plan-footer">
-              <button disabled={true} class="button is-fullwidth">Coming Soon</button>
-            </div>
+        </div>
+        <div class="subtitle has-text-weight-semibold">Additional add-on purchases for Workspaces on Starter plan</div>
+        <div class="addon-plans columns">
+          <div class=" column item is-flex is-justify-content-space-between mt-4">
+            <div class="plan-details">
+              <div class="plan-title has-text-weight-semibold">Additional 25k API Checks</div>
+              <div class="price">$6.5/month/qty</div>
+            </div>            
           </div>
-
-          <div class="pricing-plan is-danger">
-            <div class="plan-header">Paid</div>
-            <div class="has-text-centered">Coming Soon</div> 
-            <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>TBD</span>/month</div>
-            <div class="plan-items">
-              <div class="plan-item" data-feature="Users">Unlimited</div>
-              <div class="plan-item" data-feature="Monitors">NA</div>
-              <div class="plan-item" data-feature="Synthetic Test Checks">NA</div>
-              <div class="plan-item" data-feature="API Monitor Checks">NA</div>
-              <div class="plan-item" data-feature="SSL Monitor Checks">NA</div>
-              <div class="plan-item" data-feature="Web Page Monitor Checks">NA</div>
-              <div class="plan-item" data-feature="Slack & MS Teams integrations">Yes</div>
-            </div>
-            <div class="plan-footer">
-              <button disabled={true} class="button is-fullwidth">Coming Soon</button>
-            </div>
-          </div>          
+          <div class="column item is-flex is-justify-content-space-between mt-4">
+            <div class="plan-details">
+              <div class="plan-title has-text-weight-semibold">Additional 5k Synthetic Checks</div>
+              <div class="price">$12/month/qty</div>
+            </div>            
+          </div>
         </div>
       </div>
     </div>
@@ -181,7 +180,7 @@
             Products
           </div>
           <div class="mb-3">
-            <a href="/synthetics.html" >Synthetic Monitoring</a>
+            <a href="/synthetics.html">Synthetic Monitoring</a>
           </div>
           <div class="mb-3">
             <a href="/api.html">API Monitoring</a>
@@ -206,7 +205,7 @@
           <div class="mb-3">
             <a href="https://devraven.statuspage.io/" target="_blank">Status Page</a>
           </div>
-        </div>        
+        </div>
         <div class="column">
           <div class="mb-3 has-text-weight-bold">
             Legal
